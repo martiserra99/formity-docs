@@ -20,7 +20,7 @@ export function FormStep<T extends Record<string, unknown>>({
   return (
     <form
       onSubmit={form.handleSubmit(onNext)}
-      className="relative flex h-screen w-full items-center justify-center px-4 py-8 font-sans"
+      className="flex h-screen w-full items-center justify-center px-4 py-8 font-sans"
     >
       <FormProvider {...form}>{children}</FormProvider>
     </form>
