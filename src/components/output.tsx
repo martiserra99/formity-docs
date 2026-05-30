@@ -40,7 +40,7 @@ export function Output<T>({ output, onStart }: Output<T>) {
         </div>
         <button
           type="button"
-          className="w-full rounded-xl border border-transparent bg-blue-500 px-6 py-2 text-base font-medium text-white transition-opacity hover:opacity-90 focus-visible:ring-2 focus-visible:ring-white focus-visible:outline-none active:opacity-80 disabled:cursor-not-allowed disabled:opacity-50"
+          className="flex h-10 w-full items-center justify-center rounded-lg bg-gray-950 px-6 text-sm font-semibold text-white outline-2 outline-transparent transition-all hover:outline-offset-2 hover:outline-gray-200 focus-visible:outline-offset-2 focus-visible:outline-gray-950 disabled:pointer-events-none disabled:opacity-40"
           onClick={onStart}
         >
           Start Again

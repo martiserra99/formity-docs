@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400&display=swap");
 
 @import "tailwindcss";
 @import "./prism.css";
@@ -7,10 +7,6 @@
 @import "tw-animate-css";
 
 @theme {
-  --font-sans: "Mulish", sans-serif;
-  --font-mono: "IBM Plex Mono", monospace;
-}
-
-@utility color-scheme-dark {
-  color-scheme: dark; /* Ensures browser autofill UI matches dark mode. */
+  --font-sans: "DM Sans", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
 }

@@ -1,5 +1,5 @@
 pre[class*="language-"] {
-  color: var(--color-neutral-50);
+  color: var(--color-gray-50);
 }
 
 .token.tag,
@@ -16,7 +16,7 @@ pre[class*="language-"] {
 .token.rule,
 .token.pseudo-class,
 .token.important {
-  color: var(--color-neutral-300);
+  color: var(--color-gray-300);
 }
 
 .token.module {
@@ -27,12 +27,12 @@ pre[class*="language-"] {
 .token.class,
 .token.string,
 .token.property {
-  color: var(--color-blue-300);
+  color: var(--color-sky-300);
 }
 
 .token.punctuation,
 .token.attr-equals {
-  color: var(--color-neutral-500);
+  color: var(--color-gray-500);
 }
 
 .token.unit,
@@ -43,5 +43,5 @@ pre[class*="language-"] {
 .token.comment,
 .token.operator,
 .token.combinator {
-  color: var(--color-neutral-400);
+  color: var(--color-gray-400);
 }

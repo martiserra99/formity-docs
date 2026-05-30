@@ -24,11 +24,11 @@ export function NumberView({ name, label, placeholder, optional }: Number) {
         <div className="flex flex-col gap-2">
           <Label.Root
             htmlFor={id}
-            className="block text-xs font-bold text-neutral-400 uppercase"
+            className="block text-xs font-bold tracking-wider text-gray-500 uppercase"
           >
             <>{label}</>
             {optional && (
-              <span className="text-xs font-normal text-neutral-500 normal-case">
+              <span className="text-xs font-normal tracking-normal text-gray-400 normal-case">
                 {" "}
                 — optional
               </span>
@@ -42,7 +42,7 @@ export function NumberView({ name, label, placeholder, optional }: Number) {
             value={`${field.value}`}
             onChange={(e) => field.onChange(+e.target.value)}
           />
-          {error && <span className={errorClasses()}>↳ {error.message}</span>}
+          {error && <span className={errorClasses()}>{error.message}</span>}
         </div>
       )}
     />

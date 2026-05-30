@@ -26,11 +26,11 @@ export function TextareaView({ name, label, placeholder, optional }: Textarea) {
         <div className="flex flex-col gap-2">
           <Label.Root
             htmlFor={id}
-            className="block text-xs font-bold text-neutral-400 uppercase"
+            className="block text-xs font-bold tracking-wider text-gray-500 uppercase"
           >
             <>{label}</>
             {optional && (
-              <span className="text-xs font-normal text-neutral-500 normal-case">
+              <span className="text-xs font-normal tracking-normal text-gray-400 normal-case">
                 {" "}
                 — optional
               </span>
@@ -45,7 +45,7 @@ export function TextareaView({ name, label, placeholder, optional }: Textarea) {
             )}
             {...field}
           />
-          {error && <span className={errorClasses()}>↳ {error.message}</span>}
+          {error && <span className={errorClasses()}>{error.message}</span>}
         </div>
       )}
     />
